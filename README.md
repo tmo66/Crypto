@@ -5,7 +5,7 @@ Online Quiz Website
 
 Python 3.7  
 Django 2.2.16   
-
+And additional requirements are in requirements.txt
 
 ## How to run it?
 
@@ -19,7 +19,6 @@ Django 2.2.16
   * Activate the env: `$ source env/bin/activate` (for linux) `> ./env/Scripts/activate` (for Windows PowerShell)
   * Install the requirements: `$ pip install -r requirements.txt`
   * Make migrations `$ python manage.py makemigrations`
-  * To Make migrations for a particular app `$ python manage.py makemigrations <App name>`
   * Migrate the changes to the database `$ python manage.py migrate`
   * Create admin `$ python manage.py createsuperuser`
   * Run the server `$ python manage.py runserver`
